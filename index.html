@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick and Morty</title>
+    <link rel="icon" sizes="180x180" href="https://logosmarcas.net/wp-content/uploads/2022/01/Rick-And-Morty-Logo.png"
+        width="180px">
+    <link href="style.css" rel="stylesheet">
+    </link>
+    <script src="./script.js" rel="script"></script>
+</head>
+
+<body>
+    <div class="global">
+        <div class="header-div">
+            <div><img class="hd-logo" src="./Assets/hd-logo.png" alt="Rick and Morty Logo"></div>
+            <header class="header">
+                <a href="https://www.netflix.com/watch/80098733?trackId=255824129">Episodes</a>
+                <a href="https://en.wikipedia.org/wiki/Rick_and_Morty">Creators</a>
+                <a href="https://discord.com/invite/rickandmorty">Discord-Community</a>
+                <a href="https://www.reddit.com/r/rickandmorty/">Reddit-Commutiny</a>
+            </header>
+        </div>
+        <div class="main-div">
+            <main class="main">
+                <div onclick="play()" onmouseout="stop()" class="main-foto-div"><audio id="audio1"
+                        src="./Assets/RnM_Trim.mp4"></audio></div>
+                <div class="chc">
+                    <div class="tt">
+                        <h1>mAIN cHARACTERS</h1>
+                        <h3>click them for a secret</h3>
+                    </div>
+
+                    <section> <img onmouseout="stopRick()" onmouseover="playRick()" class="chcpic"
+                            src="./Assets/Rick.jpg" alt="Rick Sanchez"><audio id="audioRick"
+                            src="./Assets/Genius.mp3"></audio>
+                        <h2>Rick Sanchez</h2>
+                        <p> Rick Sanchez is one of the two eponymous characters and the main protagonist from the Adult
+                            Swim animated television series Rick and Morty. Created by Justin Roiland and Dan Harmon and
+                            voiced by the former, Sanchez is a misanthropic alcoholic scientist inspired by Christopher
+                            Lloyd's Dr. Emmett "Doc" Brown from Back to the Future and Reed Richards from Marvel Comics.
+                            In September 2021, Lloyd portrayed Sanchez himself in a series of promotional interstitials
+                            for the series. <br>
+                        </p>
+                    </section>
+
+                    <section>
+                        <img class="chcpic" onmouseout="stopMorty()" onmouseover="playMorty()" src="./Assets/Morty.jpg"
+                            alt="Morty Smith"><audio id="audioMorty" src="./Assets/Mortysound.mp3"></audio>
+                        <h2>Morty Smith</h2>
+                        <p> Mortimer "Morty" Smith is one of the titular characters, one of the five main characters and
+                            the secondary protagonist of the American animated television series Rick and Morty. Created
+                            by Justin Roiland and Dan Harmon, Morty is an anxious 14-year-old based on Michael J. Fox's
+                            Marty McFly from Back to the Future.[3] Known for his awkward, anxious, second-guessing, and
+                            doubtful personality and low sense of self-esteem, the character has been well-received. He
+                            is the good-natured and impressionable grandson of mad scientist Rick Sanchez, the son of
+                            Jerry and Beth Smith, and the younger brother of Summer Smith, who can be easily
+                            manipulated. <br>
+                        </p>
+                    </section>
+
+                    <section><img class="chcpic" onmouseout="stopEvil()" onmouseover="playEvil()"
+                            src="./Assets/Evilmorty.jpg" alt="Evil Morty"><audio id="audioEvil"
+                            src="./Assets/videoplayback.mp4"></audio>
+
+                        <h2>Evil Morty</h2>
+
+                        <p> This Morty is one of the many versions of Morty from across the multiverse, but unlike the
+                            other he finally grew tired of the sociopathic and reckless behavior of the multi-verses
+                            Ricks, becoming ruthless, highly intelligent Morty with intelligent and cunning rivaling
+                            that of a Rick. Before its near-total destruction, Evil Morty served as the first Morty to
+                            be democratically elected President of The Citadel, and had consolidated his power in a coup
+                            by eliminating any disagreeable Ricks in the Shadow Council. He later used this rise to
+                            power to fabricate an escape from the Central Finite Curve, killing many of the Ricks and
+                            Mortys within The Citadel. Due to his previously mysterious nature, he was at the center of
+                            various theories <br>
+                        </p>
+                    </section>
+
+                </div>
+
+
+
+
+            </main>
+        </div>
+        <div class="footer-div">
+            <hr>
+            <footer class="footer">
+                <div class="foots">
+                    <div><a href="https://facebook.com/MarceloMosl"><img class="facebook"
+                                src="./Assets/facebookicon.png" alt="Facebook"></a> </div>
+                    <div><a href="https://instagram.com/MarceloMosl"><img class="instagram"
+                                src="./Assets/instagram-icon.png" alt="Facebook"></a> </div>
+                    <div><a href="https://twitter.com/@MoslMarcelo"><img class="twitter" src="./Assets/twitter.png"
+                                alt="Facebook"></a> </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
